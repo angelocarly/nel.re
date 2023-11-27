@@ -58,15 +58,15 @@ jobs:
         uses: contention/rsync-deployments@v2.0.0
         with:
           # Initial/required rsync flags
-          flags: avr
+          flags: -avr
           # The server user
-          user: ${{secrets.REMOTE_USER}}
+          user: magnias
           # The deployment target
-          host: ${{secrets.REMOTE_HOST}}
+          host: nel.re
           # The local path to sync
           localpath: "public/"
           # The remote path to sync
-          remotepath: ${{secrets.TARGET}}
+          remotepath: ~/nel/data
           # The private key
           deploy_key: ${{secrets.SSH_PRIVATE_KEY}}
                 
