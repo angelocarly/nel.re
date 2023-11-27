@@ -1,0 +1,80 @@
+# Sample workflow for building and deploying a Hugo site
+name: Deploy Hugo site to Server
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.114.0
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v3
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Build with Hugo
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo \
+            --minify
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./public
+
+  # Deployment job
+      - name: rsync deployments
+        # You may pin to the exact commit or the version.
+        # uses: contention/rsync-deployments@10f98a8726e6760601d8818ea6ff812f87bf8a97
+        uses: contention/rsync-deployments@v2.0.0
+        with:
+          # Initial/required rsync flags
+          flags: avr
+          # The server user
+          user: ${{secrets.REMOTE_USER}}
+          # The deployment target
+          host: ${{secrets.REMOTE_HOST}}
+          # The local path to sync
+          localpath: "public/"
+          # The remote path to sync
+          remotepath: ${{secrets.TARGET}}
+          # The private key
+          deploy_key: ${{secrets.SSH_PRIVATE_KEY}}
+                
