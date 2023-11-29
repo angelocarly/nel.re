@@ -1,4 +1,4 @@
 baseURL = 'https://nel.re/'
 languageCode = 'en-us'
 title = 'Nel'
-theme = "nel-theme"
+theme = [ "nel-theme", "hugo-easy-gallery" ]
