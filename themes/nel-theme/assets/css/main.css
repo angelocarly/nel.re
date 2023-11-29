@@ -7,8 +7,9 @@ body {
 }
 
 figure {
-	margin-inline-start: 1em;
-	margin-inline-end: 1em;
+  /* Avoid the user agent stylesheet fucking with my images */
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
 }
 
 header {
