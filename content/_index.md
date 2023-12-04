@@ -5,6 +5,3 @@ description: ""
 ---
 
 Computer Graphics / Generative Art
-
-{{< load-photoswipe >}}
-{{< gallery dir="images/" width="1000px" />}}

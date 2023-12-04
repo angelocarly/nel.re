@@ -2,3 +2,18 @@ baseURL = 'https://nel.re/'
 languageCode = 'en-us'
 title = 'Nel'
 theme = [ "nel-theme", "hugo-easy-gallery" ]
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menus.main]]
+    identifier = "Archive"
+    name = 'Archive'
+    pageRef = '/archive'
+    weight = 20
+

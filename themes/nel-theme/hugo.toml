@@ -8,8 +8,8 @@ pageRef = '/'
 weight = 10
 
 [[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
+name = 'Archive'
+pageRef = '/archive'
 weight = 20
 
 [module]
