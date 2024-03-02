@@ -4,7 +4,7 @@ date: 2023-11-29T09:26:20+02:00
 description: ""
 ---
 
-## Let's inspire
+## Reversing life
 
 I dabble in computer graphics, generative art, strangeness, emotions.
 
