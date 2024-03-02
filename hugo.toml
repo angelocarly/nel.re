@@ -1,6 +1,6 @@
 baseURL = 'https://nel.re/'
 languageCode = 'en-us'
-title = 'Nel'
+title = 'Nel.re'
 theme = [ "nel-theme", "hugo-easy-gallery" ]
 
 [menu]
@@ -16,4 +16,10 @@ theme = [ "nel-theme", "hugo-easy-gallery" ]
     name = 'Archive'
     pageRef = '/archive'
     weight = 20
+
+  [[menus.main]]
+    identifier = "Notes"
+    name = 'Notes'
+    pageRef = '/notes'
+    weight = 30
 
