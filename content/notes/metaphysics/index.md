@@ -5,10 +5,10 @@ menu = 'notes'
 summary = 'What is?'
 +++
 
-Everything is math.
-Everything is art.
-Everything is conscious.
-Everything is everything.
+- Everything is math.
+- Everything is art.
+- Everything is conscious.
+- Everything is everything.
 
 Not being is limiting. There is always a way to be something.  
 And that is fearful. Definition blurs when something is everything.  
