@@ -27,14 +27,12 @@ You can *communicate* emotionally.
 You can *communicate* in **any structure**.  
 
 Yeah! Let's make this stuff complicated!  
-I could communicate to a chatbot, or interpret alien signals and send them back without fully understanding them yet. Or I could talk to a person at a cafe, bringing me back to the world. How do you share your ideas with them?
+But, I know I'll get lost in overcomplication.  
 
-What makes good conversation?
-
-I asked my friend.  
+So I asked my friend.  
 She says: "*Sharing and being open to what the other person says. People are good communicators because they listen, are interested and also share what they're interested in.*"
 
-I get anxious sharing my interests..  
+I get anxious sharing my interests.. To improve in communicating doesn't necessarily
 So, what are you interested in, and what am I interested in?
 
 To be continued..
