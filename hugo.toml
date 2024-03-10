@@ -5,16 +5,16 @@ theme = [ "nel-theme", "hugo-easy-gallery" ]
 
 [menu]
 
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 10
+  [[menus.main]]
+    identifier = "test"
+    name = 'test'
+    pageRef = '/test'
+    weight = 20
 
   [[menus.main]]
-    identifier = "Archive"
-    name = 'Archive'
-    pageRef = '/archive'
+    identifier = "Archives"
+    name = 'Archives'
+    pageRef = '/archives'
     weight = 20
 
   [[menus.main]]

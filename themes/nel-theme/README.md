@@ -1,4 +1,6 @@
-# Theme Name
+# Nel
+
+Used https://github.com/joeroe/risotto as base.
 
 ## Features
 

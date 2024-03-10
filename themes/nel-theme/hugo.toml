@@ -2,16 +2,6 @@ baseURL = 'https://nel.re/'
 languageCode = 'en-uk'
 title = 'Nel'
 
-[[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
-
-[[menus.main]]
-name = 'Archive'
-pageRef = '/archive'
-weight = 20
-
 [module]
   [module.hugoVersion]
     extended = false

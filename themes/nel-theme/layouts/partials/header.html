@@ -1,3 +1,5 @@
-<h1>{{ site.Title }}</h1>
-
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<nav class="page__nav main-nav">
+	<a href="/"> <img src="/red.png" class="header-icon" /> </a>
+	<h1>{{ site.Title }}</h1>
+	{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+</nav>

@@ -3,8 +3,7 @@ title: "Angelo Carly"
 date: 2023-11-29T09:26:20+02:00
 description: ""
 ---
-
-## Reversing life
+# Where am I?
 
 I dabble in computer graphics, generative art, strangeness, emotions.
 

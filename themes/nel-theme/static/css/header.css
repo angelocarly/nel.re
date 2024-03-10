@@ -1,11 +1,22 @@
 /* Main menu */
+
+.main-nav {
+	display: flex;
+}
+
+.main-nav h1 {
+	padding-left: 1em;
+	margin: auto 0 auto 0;
+}
+
 .main-nav ul {
+	margin: auto 0 auto 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 3em;
     gap: 0.5rem 2rem;
 }
 
@@ -15,4 +26,10 @@
 
 .main-nav li::marker {
     content: "./";
+}
+
+.main-nav .header-icon {
+	max-width: 5em;
+	max-height: 5em;
+	display: inline-block;
 }

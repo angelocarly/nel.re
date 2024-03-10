@@ -1,5 +1,8 @@
 @import './palettes/tender.css';
+@import 'header.css';
 @import 'colours.css';
+@import 'typography.css';
+@import 'layout.css';
 
 body {
     background-color: var(--bg);
