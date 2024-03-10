@@ -1,0 +1,13 @@
+@import './palettes/tender.css';
+@import 'colours.css';
+
+body {
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
+figure {
+  /* Avoid the user agent stylesheet fucking with my images */
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+}
