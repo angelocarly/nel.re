@@ -3,13 +3,11 @@ title: "Angelo Carly"
 date: 2023-11-29T09:26:20+02:00
 description: ""
 ---
-# Where am I?
+Computer graphics, generative art, strangeness, emotions.
 
-I dabble in computer graphics, generative art, strangeness, emotions.
+Always up for a chat about art/programming/light/creativity/brains on [my instagram](https://www.instagram.com/Dodecatatonic).
 
-Always up for a chat about art/programmic/light/creativity/brains on [my instagram](https://www.instagram.com/Dodecatatonic).
+I'm starting to keep notes online [here](notes/wants).
 
-I'm starting to keep mental notes online [here](notes/wants).
-
-Or check out some stuff I'm having fun with:
+This is a work in progress.
 
