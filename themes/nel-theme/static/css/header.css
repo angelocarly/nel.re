@@ -4,9 +4,11 @@
 	display: flex;
 }
 
-.main-nav h1 {
-	padding-left: 1em;
+.main-nav .page__logo-inner {
 	margin: auto 0 auto 0;
+	text-decoration: none;
+	color: var(--fg);
+
 }
 
 .main-nav ul {
