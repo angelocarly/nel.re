@@ -35,8 +35,6 @@ summary = 'Things I want to do'
 - Collaborate with people
 - Be able to teach people things
 - World domination
->>>>>>> 1dfc87d (Add communication)
-- Be proud of the things I do
 
 The list is infinite. There's an infinite amount of things I won't be able to do.  
 They are not goals. When does one *understand* consciousness? I don't know.  
