@@ -1,7 +1,7 @@
 +++
 title = 'Voice'
 date = 2024-03-01T10:27:00+01:00
-menu = 'notes'
+menu = 'blog'
 summary = 'Finding my voice'
 +++
 

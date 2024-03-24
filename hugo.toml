@@ -6,20 +6,14 @@ theme = [ "nel-theme", "hugo-easy-gallery" ]
 [menu]
 
   [[menus.main]]
-    identifier = "test"
-    name = 'test'
-    pageRef = '/test'
+    identifier = "Art"
+    name = 'Art'
+    pageRef = '/art'
     weight = 20
 
   [[menus.main]]
-    identifier = "Archives"
-    name = 'Archives'
-    pageRef = '/archives'
-    weight = 20
-
-  [[menus.main]]
-    identifier = "Notes"
-    name = 'Notes'
-    pageRef = '/notes'
+    identifier = "Blog"
+    name = 'Blog'
+    pageRef = '/blog'
     weight = 30
 

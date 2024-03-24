@@ -1,7 +1,7 @@
 +++
 title = 'Wants'
 date = 2024-03-01T00:33:00+01:00
-menu = 'notes'
+menu = 'blog'
 summary = 'Things I want to do'
 +++
 

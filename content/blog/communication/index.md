@@ -1,7 +1,7 @@
 +++
 title = 'Communication'
 date = 2024-03-04T23:15:00+01:00
-menu = 'notes'
+menu = 'blog'
 summary = 'Communicating is strange'
 +++
 
