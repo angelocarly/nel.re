@@ -9,6 +9,26 @@ body {
     color: var(--fg);
 }
 
+h1 {
+    color: var(--base0A);
+}
+
+h2 {
+    color: var(--base09);
+}
+
+h3 {
+    color: var(--base0E);
+}
+
+a:link {
+    color: var(--base0E);
+}
+
+a:link, a:visited {
+    color: var(--base0E);
+}
+
 figure {
   /* Avoid the user agent stylesheet fucking with my images */
   margin-inline-start: 1em;

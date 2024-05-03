@@ -26,6 +26,12 @@
     text-transform: lowercase;
 }
 
+.main-nav li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    color: var(--base0E);
+}
+
 .main-nav li::marker {
     content: "./";
 }
