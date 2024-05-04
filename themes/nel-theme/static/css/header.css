@@ -1,6 +1,7 @@
 /* Main menu */
 
 .main-nav {
+    font-family: var(--font-monospace);
 	display: flex;
 }
 

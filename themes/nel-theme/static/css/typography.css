@@ -1,25 +1,38 @@
 /* Fonts */
 :root {
     --font-monospace: "Hack", monospace;
+    --font-text: "Open Sans", monospace;
 }
 
 body {
-    font-family: var(--font-monospace);
-    font-size: 16px;
+    font-family: var(--font-text);
+    font-size: 1.15rem;
     line-height: 1.5rem;
 }
 
 /* Headings */
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6 {
-    font-size: 1rem;
+header h1 {
+    font-size: 1.15rem;
     margin: 1.5rem 0 0 0;
     font-weight: 600;
 }
+
+h1 {
+    font-size: 1.3rem;
+    margin: 1.5rem 0 0 0;
+    font-weight: 600;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.2rem;
+    margin: 1.5rem 0 0 0;
+    font-weight: 600;
+}
+
 
 h1+h2,
 h1+h3,
@@ -39,12 +52,12 @@ h5+h6 {
     margin: 0;
 }
 
-h1:before { content: "# "; }
-h2:before { content: "## "; }
-h3:before { content: "### "; }
-h4:before { content: "#### "; }
-h5:before { content: "##### "; }
-h6:before { content: "###### "; }
+h1:before { content: ""; }
+h2:before { content: ""; }
+h3:before { content: ""; }
+h4:before { content: ""; }
+h5:before { content: ""; }
+h6:before { content: ""; }
 
 h1:before, 
 h2:before, 

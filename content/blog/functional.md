@@ -9,12 +9,12 @@ These are my notes on what functional programming actually is.
 ## Imperative languages
 
 Two concepts:
-- **Imperative** -> An order, imposing a will, something absolutely necessary.
-- **Procedural** -> A series of steps, a sequence of instructions
+- **Imperative** `->` An order, imposing a will, something absolutely necessary.
+- **Procedural** `->` A series of steps, a sequence of instructions
 
 ## Functional languages
 
-**Expression** -> Making known one's thoughts or feelings.
+- **Expression** `->` Making known one's thoughts or feelings.
 
 ### Property 1
 
@@ -30,4 +30,5 @@ Anonymous functions.
 
 **Anonymous** -> Lacking a name.
 
-(parameters) |-> f(parameters)
+`(parameters) -> f(parameters)`
+
