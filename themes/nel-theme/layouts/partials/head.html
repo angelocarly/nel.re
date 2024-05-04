@@ -2,5 +2,8 @@
 <meta name="viewport" content="width=device-width">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 
+<!-- Hack font -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css">
+
 <!-- risotto theme -->
 <link rel="stylesheet" href="{{ "css/nel.css" | absURL }}">

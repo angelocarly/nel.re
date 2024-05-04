@@ -23,3 +23,11 @@ A functional language is **not** a concatenation of *commands*, it **is** a comp
 - value -> value
 - The same input always results in the same output
 - A procedure can be a function
+
+### Property 2
+
+Anonymous functions.
+
+**Anonymous** -> Lacking a name.
+
+(parameters) |-> f(parameters)
