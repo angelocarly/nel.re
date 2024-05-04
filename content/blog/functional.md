@@ -4,7 +4,7 @@ date = 2024-05-03T22:58:45+02:00
 draft = false
 +++
 
-These are my notes on what functional programming actually is.
+What is functional programming?
 
 ## Imperative languages
 

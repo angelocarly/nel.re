@@ -1,5 +1,5 @@
 +++
-title = 'Boredom'
+title = 'Simple'
 date = 2024-04-14T19:57:06+02:00
 draft = true
 +++

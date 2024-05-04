@@ -77,6 +77,14 @@ p {
     margin: 0 0 1.5rem 0;
 }
 
+/* Time */
+time {
+    font-size: 0.9rem;
+    margin: 0 0 1.0rem 0;
+    font-weight: 600;
+    display: block;
+}
+
 /* Links */
 
 a:link, a:visited {
