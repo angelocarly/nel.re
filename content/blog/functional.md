@@ -10,7 +10,14 @@ What is functional programming?
 
 Two concepts:
 - **Imperative** `->` An order, imposing a will, something absolutely necessary.
+```
+Do A
+```
 - **Procedural** `->` A series of steps, a sequence of instructions
+```
+1. Open milk
+2. Drink milk
+```
 
 ## Functional languages
 
