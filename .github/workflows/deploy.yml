@@ -60,13 +60,13 @@ jobs:
           # Initial/required rsync flags
           flags: -avr
           # The server user
-          user: magnias
+          user: ${{secrets.REMOTE_USER}}
           # The deployment target
-          host: nel.re
+          host: ${{secrets.REMOTE_HOST}}
           # The local path to sync
           localpath: "public/"
           # The remote path to sync
-          remotepath: ~/nel/data
+          remotepath: ${{secrets.REMOTE_PATH}}
           # The private key
           deploy_key: ${{secrets.SSH_PRIVATE_KEY}}
                 
