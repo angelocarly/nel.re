@@ -5,6 +5,7 @@ Personal blog made with Hugo.
 Extensions:
 - [hugo-easy-gallery](https://github.com/Darthagnon/hugo-easy-gallery/tree/production) - Very easy gallery using shortcodes
 
+
 ## Building
 
 ```
