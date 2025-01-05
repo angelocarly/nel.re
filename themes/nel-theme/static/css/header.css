@@ -2,24 +2,25 @@
 
 .main-nav {
     font-family: var(--font-monospace);
-	display: flex;
+    display: flex;
 }
 
 .main-nav .page__logo-inner {
-	margin: auto 0 auto 0;
-	text-decoration: none;
-	color: var(--fg);
-
+    font-family: "Geostar";
+    font-size: 2.5em;
+    margin: auto 0 auto 0;
+    text-decoration: none;
+    color: var(--fg);
 }
 
 .main-nav ul {
-	margin: auto 0 auto 0;
+    margin: auto 0 auto 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
     margin: 0;
-    padding: 0 0 0 3em;
+    padding: 0 0 0 1em;
     gap: 0.5rem 2rem;
 }
 
