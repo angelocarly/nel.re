@@ -41,5 +41,5 @@
 .main-nav .header-icon {
 	max-width: 5em;
 	max-height: 5em;
-	display: inline-block;
+	display: flex;
 }
