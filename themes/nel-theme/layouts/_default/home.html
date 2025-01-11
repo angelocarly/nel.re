@@ -1,17 +1,3 @@
 {{ define "main" }}
   {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-	<a href="{{ .Permalink }}">
-		{{ with .Resources }}
-			{{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
-				{{ $cover := .Resize "800x" }}
-				{{ with $cover }}
-					<img src="{{ .Permalink }}"/>
-				{{ end }}
-			{{ end }}
-		{{ end }}
-	</a>
-
-  {{ end }}
 {{ end }}
