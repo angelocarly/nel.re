@@ -1,12 +1,9 @@
 +++
 title = 'Boredom'
 date = 2024-04-14T19:57:06+02:00
-draft = true
 +++
 
-# Title
-
-## Things I want to do, V.2.
+## Well, so here's a fragment.. [share scrappy fiddles my friend](https://mas.to/@TodePond/111246250052172614)
 
 I want to design a tattoo.
 
@@ -18,7 +15,7 @@ Limiting is complicating.
 
 --- What is good ?
 
-Trying out breating exercises.
+Trying out breathing exercises.
 Doing my leg exercises.
 I will do legs as I have much energy now.
 Solar surfing equipment.
@@ -33,15 +30,3 @@ I help myself by laying healthy expectations from others.
 There didn't go tension into that spot, but into the mental model of that spot.
 
 Hij overtuigde hemzelf dat hij van niks gelijk heeft.
-
-
-
-Here comes the content of my blog post.
-
-Am I distracting myself or not?
-
-Now I'm stressing.
-Actually I like my post from before.
-
-
-## What next?

@@ -3,8 +3,6 @@ title = 'Identity'
 date = 2024-11-29T12:19:41+01:00
 +++
 
-# Identity
-
 Going against the flow
 
 No longer fitting in

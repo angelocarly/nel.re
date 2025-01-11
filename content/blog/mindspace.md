@@ -3,8 +3,6 @@ title = 'Mindspace'
 date = 2025-01-11T23:48:10+01:00
 +++
 
-# Mindspace
-
 I've started tinkering with an idea for a project. I call it [mindspace](https://github.com/angelocarly/mindspace).
 
 It will be an attempt at combining technology and my thoughts. An interface between thinking, dreaming, logging and connecting. It might not work out at all, but that is no problem.
