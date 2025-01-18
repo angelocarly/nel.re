@@ -1,9 +1,10 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Geostar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --font-monospace: "Hack", monospace;
-    --font-text: "Open Sans", monospace;
+    --font-text: "Work Sans";
 }
 
 body {

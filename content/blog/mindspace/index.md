@@ -49,4 +49,6 @@ neo4j@neo4j> MATCH (n {name:"Paradox"})
 +----------------------------------------+
 ```
 
-That's it for now.
+PS: I can access the databases shell via ssh on my phone! So I can log things in the wild :D
+
+That's it for now!
