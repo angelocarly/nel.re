@@ -73,3 +73,10 @@ I've been finding `cypher-shell` hard to work with manually. It's a lot of effor
 My current focus will be to create a fun way to render the nodes using [cen](https://github.com/angelocarly/cen). That should be a challenge.
 
 To be continued..
+
+===========================================
+
+![](./graph_app.png)
+
+I rendered some nodes using compute shaders.
+Next up is linking them to the data, and adding edges :3
