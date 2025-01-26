@@ -1,7 +1,7 @@
 baseURL = 'https://nel.re/'
 languageCode = 'en-us'
 title = 'Nel.re'
-theme = [ "nel-theme", "hugo-easy-gallery" ]
+theme = ["hugo-video", "nel-theme", "hugo-easy-gallery" ]
 
 [menu]
 

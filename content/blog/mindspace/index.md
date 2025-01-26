@@ -80,3 +80,23 @@ To be continued..
 
 I rendered some nodes using compute shaders.
 Next up is linking them to the data, and adding edges :3
+
+===========================================
+
+## Progress movies
+
+The first rendered connections
+{{< video src="data/first_rotation" >}}
+
+A more complex random graph
+{{< video src="data/complext_graph" >}}
+
+Camera controls, perspective transformations and selections
+{{< video src="data/perspective_select" >}}
+
+Labels showing node info
+{{< video src="data/labels" >}}
+
+Here I added more graph modification options and end up playing with cool shapes
+{{< video src="data/shapes" >}}
+
