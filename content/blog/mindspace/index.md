@@ -3,6 +3,8 @@ title = 'Mindspace'
 date = 2025-01-11T23:48:10+01:00
 +++
 
+![](./cover.png)
+
 I've started tinkering with an idea for a project. I call it [mindspace](https://github.com/angelocarly/mindspace).
 
 It will be an attempt at combining technology and my thoughts. An interface between thinking, dreaming, logging and connecting. It might not work out at all, but that is no problem.
@@ -14,8 +16,8 @@ From there on I have no clue what to do still. I feel like I need to take my ste
 ==========================================
 
 Pt. 2
+![](./data/shader.png)
 
-![](./cover.png)
 
 I've set up a graph database, specifically neo4j for those interested. A graph database is not like an SQL database. It stores its data in what's like nodes and connections.
 
@@ -76,7 +78,7 @@ To be continued..
 
 ===========================================
 
-![](./graph_app.png)
+![](./data/graph_app.png)
 
 I rendered some nodes using compute shaders.
 Next up is linking them to the data, and adding edges :3
