@@ -12,16 +12,6 @@
 		<h2>{{ .Title | markdownify }}</h2>
 
 	{{ .Content }}
-        <a href="{{ .Permalink }}">
-            {{ with .Resources }}
-                {{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
-                    {{ $cover := .Resize "700x" }}
-                    {{ with $cover }}
-                        <img src="{{ .Permalink }}"/>
-                    {{ end }}
-                {{ end }}
-            {{ end }}
-        </a>
     </article>
     {{ end }}
 {{ end }}
