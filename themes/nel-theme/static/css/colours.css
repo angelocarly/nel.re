@@ -1,12 +1,12 @@
 :root {
 	/* Background */
 	--bg: var(--base00);
-	--off-bg: var(--base00);
-	--inner-bg: var(--base01);
+	--off-bg: var(--base02);
+	--inner-bg: var(--base02);
 
 	/* Text */
 	--fg: var(--base06);
-	--off-fg: var(--base04);
+	--off-fg: var(--base05);
 	--muted: var(--base03);
 	--link: var(--base0D);
 	--hover: var(--base0C);

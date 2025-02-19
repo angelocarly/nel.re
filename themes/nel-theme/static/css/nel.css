@@ -35,3 +35,33 @@ figure {
   margin-inline-start: 1em;
   margin-inline-end: 1em;
 }
+
+.section_header {
+  background-color: var(--bg); 
+  color: var(--base04);
+  font-size: .8em;
+  text-align: right;
+  padding-right: 8px;
+}
+
+.subsection {
+  background-color: var(--base01); 
+  margin-top: 1em;
+  padding-bottom: .1em;
+}
+
+.subsection h2 {
+  margin-top: 0em;
+}
+
+.subsection img {
+    padding: .8em;
+    box-sizing: border-box;
+}
+
+.subsection video {
+    padding: .8em;
+    box-sizing: border-box;
+    display: block;
+    margin: 1em 0;
+}
