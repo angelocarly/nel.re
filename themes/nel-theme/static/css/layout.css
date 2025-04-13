@@ -56,10 +56,20 @@
     max-height: 95vh;
 }
 
+.post__navigation {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post__navigation h3 {
+    margin: 0px;
+}
+
 .post__meta {
     background-color: var(--bg);
     display: flex;
-    color: var(--base04);
+    color: var(--base05);
     justify-content: right;
     font-size: .8em;
     margin-bottom: 0em;
