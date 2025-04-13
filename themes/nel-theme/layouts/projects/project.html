@@ -6,11 +6,13 @@
 
     {{ range .Pages }}
     <article class="subsection">
+	<div class="subsection__header">
+		<h2>{{ .Title | markdownify }}</h2>
 		<p class="post__meta">
 			<span class="date">{{ .Date.Format "2 January 2006" }}</span>
 		</p>
-		<h2>{{ .Title | markdownify }}</h2>
 
+	</div>
 	{{ .Content }}
     </article>
     {{ end }}
