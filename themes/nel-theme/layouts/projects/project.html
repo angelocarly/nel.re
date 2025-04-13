@@ -4,7 +4,7 @@
         {{ .Content }}
     </header>
 
-    {{ range .Pages }}
+    {{ range .Pages.ByDate }}
     <article class="subsection">
 	<div class="subsection__header">
 		<h2>{{ .Title | markdownify }}</h2>
