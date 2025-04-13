@@ -17,3 +17,8 @@ theme = ["hugo-video", "nel-theme", "hugo-easy-gallery" ]
     pageRef = '/blog'
     weight = 30
 
+  [[menus.main]]
+    identifier = "Projects"
+    name = 'Projects'
+    pageRef = '/projects'
+    weight = 40

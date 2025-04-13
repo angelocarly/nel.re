@@ -1,0 +1,17 @@
+{{ define "main" }}
+    <header class="content__header">
+        <h1>{{ .Title | markdownify }}</h1>
+        {{ .Content }}
+    </header>
+
+    {{ range .Pages }}
+    <article class="subsection">
+		<p class="post__meta">
+			<span class="date">{{ .Date.Format "2 January 2006" }}</span>
+		</p>
+		<h2>{{ .Title | markdownify }}</h2>
+
+	{{ .Content }}
+    </article>
+    {{ end }}
+{{ end }}
