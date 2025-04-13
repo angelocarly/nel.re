@@ -4,25 +4,28 @@
         {{ .Content }}
     </header>
 
-    {{ range .Pages }}
-    <article class="post">
-		<h1><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
-		<p class="post__meta">
-			<span class="date">{{ .Date.Format "2 January 2006" }}</span>
-		</p>
+    <div class="artwork-grid">
 
-        <a href="{{ .Permalink }}">
-            {{ with .Resources }}
-                {{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
-                    {{ $cover := .Resize "1000x" }}
-                    {{ with $cover }}
-                        <img src="{{ .Permalink }}"/>
-                    {{ end }}
-                {{ end }}
-            {{ end }}
-        </a>
-		<br />
-		{{ .Summary }}
-    </article>
-    {{ end }}
+        {{ range .Pages }}
+	<article class="art-card">
+	    <div class="post__navigation">
+	        <h1><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+	        <p class="post__meta">
+	            <span class="date">{{ .Date.Format "2 January 2006" }}</span>
+    	        </p>
+	    </div>
+
+	    <a href="{{ .Permalink }}">
+	    {{ with .Resources }}
+		{{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
+			    {{ $cover := .Resize "1000x" }}
+			    {{ with $cover }}
+				<img src="{{ .Permalink }}"/>
+			    {{ end }}
+			{{ end }}
+		    {{ end }}
+		</a>
+	    </article>
+        {{ end }}
+    </div>
 {{ end }}

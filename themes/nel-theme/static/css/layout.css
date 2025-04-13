@@ -4,10 +4,10 @@
     max-width: 64rem;
     margin: 1rem auto;
     display: grid;
+    padding: 0 1rem;
     grid-template-areas:
       "header"
       "body"
-      "aside"
       "footer";
     grid-template-columns: minmax(0, 1fr); /* https://css-tricks.com/preventing-a-grid-blowout/ */
     grid-row-gap: 2rem;
@@ -17,7 +17,7 @@
     .page {
         grid-template-areas:
           "header  header"
-          "body    aside"
+          "body    body"
           "footer  footer";
         grid-template-columns: minmax(0, 1fr) 15rem;
         grid-column-gap: 2rem;
@@ -35,7 +35,7 @@
 }
 
 .page__nav {
-    flex-grow: 1;
+    flex-grow: 0;
 }
 
 /* Body + aside */
@@ -44,16 +44,28 @@
     background-color: var(--bg);
     box-shadow: 0 0 0 1rem var(--bg);
     overflow-wrap: break-word;
+    width: 100%;
+    padding 0 1rem;
 }
 
-.page__aside {
-    grid-area: aside;
-    color: var(--off-fg);
-    position: sticky;
-    top: 1rem;
-    right: 1rem;
-    overflow-y: auto;
-    max-height: 95vh;
+.artwork-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.art-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: space-between;
+}
+
+@media (min-width: 900px) {
+    .artwork-grid {
+	grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .post__navigation {
@@ -70,7 +82,6 @@
     background-color: var(--bg);
     display: flex;
     color: var(--base05);
-    justify-content: right;
     font-size: .8em;
     margin-bottom: 0em;
 }
