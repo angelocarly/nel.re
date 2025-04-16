@@ -3,9 +3,6 @@ title = 'Database'
 date = 2025-01-17T23:48:10+01:00
 +++
 
-![](./shader.png)
-
-
 I've set up a graph database, specifically neo4j for those interested. A graph database is not like an SQL database. It stores its data in what's like nodes and connections.
 
 Currently I have only added nodes. No relations/connections yet. They are:
